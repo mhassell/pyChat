@@ -3,14 +3,13 @@ A P2P chat program in Python
 
 TBD:
 
-Well, implement the whole thing.
+Well, this is a first draft.  Still a bunch to figure out with threads and the GUI.
 
 1. Figure out threading/queues/async to allow the user to send and recv at the same time
 
-	a. User should launch program and decide if they are going to wait for a connection or "dial out"
+	a. I've been having some issues using threads with my GUI.  This is my current challenge to overcome.
+	b. When a user quits, we need a way to safely close the threads that are running. Currently the program just gets stuck until you kill the process.
 
-	b. How to handle firewalls/antivirus/etc?
+2. Encryption?
+3. FTP for transferring files?
 
-2. Eventually build into a GUI
-3. Encryption?
-4. FTP for transferring files?
