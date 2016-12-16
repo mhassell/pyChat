@@ -5,7 +5,9 @@ TBD:
 
 Well, this is a first draft.  Still a bunch to figure out.
 
-1. When a user quits, we need a way to safely close the threads that are running. Currently the program just gets stuck until you kill the process.
+1. When a user quits, we need a way to safely close the threads that are running.
+
+	a. (command line version) Currently the program just gets stuck until you kill the process.
 
 2. Need error handling! All over the place!
 
