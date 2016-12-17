@@ -27,3 +27,14 @@ Future features once the real issues are sorted out:
 
 2. FTP for transferring files?
 
+And a few resources I found helpful to learn some about sockets & threading:
+
+http://www.informit.com/articles/article.aspx?p=30708
+
+https://www.toptal.com/python/beginners-guide-to-concurrency-and-parallelism-in-python
+
+http://www.ibm.com/developerworks/aix/library/au-threadingpython/
+
+http://effbot.org/zone/thread-synchronization.htm
+
+https://nikolak.com/pyqt-threading-tutorial/
